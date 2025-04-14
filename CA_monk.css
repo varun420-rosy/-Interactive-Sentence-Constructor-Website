@@ -1,0 +1,117 @@
+body {
+  font-family: Arial;
+  color: black;
+  /* background-color: rgb(1, 3, 45); */
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+  
+  .container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cross-button {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .cross-button:hover{
+    cursor: pointer;
+    background-color: rgb(113, 7, 7);
+  }
+  #quit-yes{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+  }
+  #quit-yes:hover{
+    cursor: pointer;
+    background-color: rgba(113,7,7);
+  }
+  #quit-no{
+    color: white;
+    background-color: greenyellow;
+    border-radius: 5px;
+  }
+  #quit-no:hover{
+    cursor: pointer;
+    background-color: rgba(4, 241, 40, 0.902);
+  }
+  #question-container {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #options-container select {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #options-container select:hover {
+    background-color: green;
+  }
+  
+  #next-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #next-button:hover {
+    background-color: greenyellow;
+  }
+  
+  #result-container {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+   
