@@ -1,4 +1,4 @@
-Interactive-Sentence-Constructor-Website
+Interactive-Sentence-Constructor-Website:
 Over view:
 The Interactive Sentence Constructor Website is a dynamic web application that allows users to construct sentences by selecting words from dropdown menus. The project utilizes HTML, CSS, JavaScript to create an engaging and user-friendly interface.
 
